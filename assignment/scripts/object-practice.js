@@ -42,12 +42,15 @@ console.log(`my final favorite food is: ${me.faveThreeFoods.slice(-1)}`);  //fou
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-console.log(`my shoe count is: ${me.shoeCount}`)
-me.shoeCount += 1
-console.log(`my updated shoe count is: ${me.shoeCount}`)
+console.log(`my shoe count is: ${me.shoeCount}`);
+me.shoeCount += 1;
+console.log(`my updated shoe count is: ${me.shoeCount}`);
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor= 'purple';
+console.log(me);
