@@ -34,7 +34,7 @@ console.log(fullName);
   - Console.log your last favorite food 
 */
 console.log(`my first favorite food is: ${me.faveThreeFoods[0]}`);
-console.log(`my final favorite food is: ${me.faveThreeFoods.slice(-1)}`);  //found a couple of ways to do this, this way seemed the most elegant? -Stephen
+console.log(`my final favorite food is: ${me.faveThreeFoods.at(-1)}`);  //found a couple of ways to do this, this way seemed the most elegant? -Stephen
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
